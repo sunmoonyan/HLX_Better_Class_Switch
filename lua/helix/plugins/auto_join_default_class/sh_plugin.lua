@@ -1,8 +1,8 @@
 local PLUGIN = PLUGIN
 
-PLUGIN.name = "Auto join default class"
+PLUGIN.name = "Better Class Switch"
 PLUGIN.author = "Sunshi"
-PLUGIN.description = "Automatically join the default class when a player joins a faction."
+PLUGIN.description = "Automatically join the default class when a player joins a faction and apply playermodel."
 
 ix.config.Add("setFactionModel", true, "Set automatically faction or class model.", nil, {
     category = "Characters"
